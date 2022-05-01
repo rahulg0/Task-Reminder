@@ -1,0 +1,44 @@
+
+
+.cu_img{
+    width: 50px;
+}
+
+.user_login{
+    
+ 
+}
+
+.form-uname{
+    margin-right: 68px;
+}
+.form-pass{
+    margin-right: 22px;
+    margin-right: 50px;
+}
+
+.commitment{
+    font-size: 14px;
+    color: gray;
+}
+
+section{
+    border: solid 5px black;
+    height: 98.5vh;
+    background-color: rgb(43, 34, 34);
+    color: white;
+    
+}
+.div_form {
+    height: 77vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    border: solid 5px red;
+    
+}
+
+
+
