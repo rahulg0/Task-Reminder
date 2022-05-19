@@ -1,0 +1,128 @@
+*{
+    background-color:white;
+    color: black;
+}
+
+.navbar{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    position: relative;
+
+}
+
+.div_brand{
+    border: 5px solid red;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(146, 199, 245);
+    box-shadow: 2px 2px 5px;
+}
+
+.navbar-brand{
+    position: relative;
+    background-color: rgb(146, 199, 245);
+}
+
+.S1{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    font-weight:500;
+    background-color:  rgb(146, 199, 245);
+}
+
+.link{
+    color: gray;
+    background-color:  rgb(146, 199, 245);
+    margin-right: 10px;
+    
+}
+
+.link:visited{
+    color: rgb(0, 0, 0);
+}
+
+.link:hover{
+    color: rgb(150, 150, 150);
+}
+
+.link:active{
+    color: rgb(30, 0, 255)
+}
+
+.link:link{
+    text-decoration: none;
+}
+
+.form-check{
+    margin-top: 45px;
+    float: right;
+    margin-right: 20px;
+
+}
+
+.btn-group{
+    margin-right: 10px;
+    margin-top: 40px;
+    float: right;
+    
+}
+
+.btn{
+    background-color: rgb(24, 24, 24);
+    padding: 0px;
+    height: 30px;
+    width: 50px;
+    position: relative;
+    
+}
+
+.S2{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+    width: 50pX;
+    height: 28PX;
+}
+
+.S2:hover{
+    background-color: blue;
+    color: white;
+}
+
+.S2:visited{
+    background-color: rgb(146, 178, 207);
+}
+
+.add_email{
+    
+}
+
+.input{
+    width: 200px;
+    
+}
+
+.add{
+    float: left;
+    height: 98vh;
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 500px;
+
+}
+
+.input:hover{
+    background-color:  blue;
+    color: white;
+}
+

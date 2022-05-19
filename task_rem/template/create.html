@@ -1,0 +1,45 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href= "{% static 'css/main.css' %}" >
+    <link href="{% static ' bootstrap.min.css ' %}" rel="stylesheet" >
+</head>
+<body>
+    
+    
+    <section>
+      !--CU Logo-->
+    <img src="{ % static 'cu_logo.jpg' % }" class="cu_img" alt="..." width = 50px>
+    
+        <!--User Form-->
+        <center><div class="div_form">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputtask" class="form-label">Task</label><br></label>
+              <textarea type="text" class="form-control" id="exampleInputtask" aria-describedby="emailHelp" rows="10" cols="50" ></textarea>
+              <label for="time"><BR> DUE</label>
+              <input type="datetime-local" id="time" name="time">
+              <div id="taskHelp" class="form-text"></div>
+              <label for="time2">TIME</label>
+                <input type="time" id="time2" name="time2">
+                <div id="taskHelp" class="form-text"></div>
+              </div>
+              <BR>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form></center>
+    </section>
+            
+
+    
+<link rel="stylesheet" href= "{% static 'css/main.css' %}" >
+<link href="{% static ' bootstrap.min.css ' %}" rel="stylesheet" >
+</body>
+</html>
+
+
+

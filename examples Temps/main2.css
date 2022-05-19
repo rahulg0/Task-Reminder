@@ -1,0 +1,134 @@
+*{
+    background-color:white;
+    color: white;
+   
+}
+
+body{
+    border: solid red 5px;
+    height: 100vh;
+    
+}
+
+.navbar{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    position: relative;
+   
+
+}
+
+.div_brand{
+    border: 5px solid red;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(43, 34, 34);
+    box-shadow: 5px 5px 5px 5px red;
+}
+
+.navbar-brand{
+    position: relative;
+    background-color: rgb(43, 34, 34);
+}
+
+.S1{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    font-weight:500;
+    background-color:  rgb(43, 34, 34);
+}
+
+.link{
+    color: white;
+    background-color:  rgb(43, 34, 34);
+    margin-right: 10px;
+    
+}
+
+.link:visited{
+    color: rgb(181, 181, 181);
+}
+
+.link:hover{
+    color: rgb(150, 150, 150);
+}
+
+.link:active{
+    color: rgb(30, 0, 255)
+}
+
+.link:link{
+    text-decoration: none;
+}
+
+.form-check{
+    margin-top: 45px;
+    float: right;
+    margin-right: 20px;
+
+}
+
+.btn-group{
+    margin-right: 10px;
+    margin-top: 40px;
+    float: right;
+    background: #000;
+    
+}
+
+.btn{
+    background-color: rgb(24, 24, 24);
+    padding: 0px;
+    height: 30px;
+    width: 50px;
+    position: relative;
+    
+}
+
+.S2{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    border: 2px solid black;
+    font-weight: bold;
+    width: 50pX;
+    height: 28PX;
+}
+
+.S2:hover{
+    background-color: blue;
+    color: white;
+}
+
+.S2:visited{
+    background-color: rgb(146, 178, 207);
+}
+
+
+.input{
+    width: 200px;
+    background: #000;
+}
+
+.add{
+    float: left;
+    height: 50vh;
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 500px;
+    
+
+}
+
+.input:hover{
+    background-color:  blue;
+    color: white;
+}
